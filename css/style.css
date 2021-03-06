@@ -1337,7 +1337,7 @@ color: #808080;
     margin-bottom: 25px;
 }
 #calculadoraModal > .modal-dialog > .modal-content > .modal-body {
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     background: white;
     border-radius: 17px;
 }
@@ -1400,6 +1400,7 @@ color: #808080;
 
 #pagos_ahorros_modal {
     background-color: #243a77;
+    margin-bottom: 0px;
 }
 #submit{
     border: 0;

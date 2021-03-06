@@ -675,7 +675,7 @@ ul.round_product {
 @media (min-width: 768px) {
 
     .calculadora_desktop {
-        top: 12%;
+        top: 9%;
         left: 45%;
         width: 53%;
      }
@@ -891,7 +891,7 @@ ul.round_product {
 
     .calculadora_desktop {
 		padding: 1% 1%;
-		top: 12%;
+		top: 9%;
         left: 50%;
         width: 40%;
 	}	
@@ -902,7 +902,7 @@ ul.round_product {
 
     .calculadora_desktop {
 		padding: 1% 1%;
-		top: 13%;
+		top: 10%;
 		left: 50%;
 	}	
 
@@ -912,7 +912,7 @@ ul.round_product {
 
     .calculadora_desktop {
 		padding: 1% 1%;
-        top: 12%;
+        top: 9%;
         left: 52%;
         width: 38%;
 	}	
