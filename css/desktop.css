@@ -1,0 +1,921 @@
+.calculadora_desktop {
+    background-color: #ffffff9c;
+    display: block;
+    position: absolute;
+    /* top: 29%;
+    left: 48%; */
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.66);
+    border: 1px solid #b8b8b8;    
+    width: 37%;
+   -webkit-box-shadow: -1px 1px 10px 4px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: -1px 1px 10px 4px rgba(0, 0, 0, 0.66);
+    box-shadow: -1px 1px 10px 4px rgba(0, 0, 0, 0.66);
+}
+
+.cal_check {
+    text-align: left;
+}
+ 
+.cal_check > label {
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+.text_calculadora {
+    color: #666;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.resultado_calculo {
+    margin: 25px auto;
+    color: #FFF;
+    width: 73%;
+    font-size: 1.3vw;
+    background-color: #84BD56;
+    padding: 2% 10%;
+}
+.margt-20 {
+    margin-top: 25px;
+}
+.calculadora_desktop > .container > h3 {
+    color: #233976;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-top: 2%;
+}
+.p-left {
+    padding-left: 11%;
+    margin-bottom: 10px;
+}
+.p-left .numeracion {
+    margin-left: -12%;
+}
+.absolute .resultado_calculo {
+    margin: 4% 0 5% 13%;
+}
+
+.txt-slider-b {
+    margin-bottom: 3%;
+}
+
+#result_calculos > .row > * {
+    font-size: 15px;
+    font-weight: bold;
+}
+html input[type="range"] {
+    height: 30px;
+    box-shadow: 0px 0px 2px 1px #00000038;
+    background-color: #f6f6f6;
+    border-radius: 18px;
+}
+
+html input[type="range"]:focus {
+    outline: none;
+    outline-color: #ffffff;
+    background-color: #f6f6f6;
+}
+
+html input[id="pricemin"]::-webkit-slider-thumb {
+    width: 30px;
+    -webkit-appearance: none;
+    height: 30px;
+    cursor: ew-resize;
+    background: #84BD56;
+    box-shadow: -340px 0 0 320px #84BD56, inset 0 0 0 40px #1295D8;
+    border-radius: 50%;
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+}
+html input[id="mes-min"]::-webkit-slider-thumb {
+    width: 30px;
+    -webkit-appearance: none;
+    height: 30px;
+    cursor: ew-resize;
+    background: #84BD56;
+    box-shadow: -340px 0 0 320px #84BD56, inset 0 0 0 40px #1295D8;
+    border-radius: 50%;
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+    z-index: 3;
+}
+
+
+.fondo_pagar {
+    padding: 0%;
+    font-size: 1vw;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.fondo_pagar > span {
+    font-size: 1.5vw;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.boton_modal {
+    padding: 2% 5%;
+}
+
+.boton_modal > a >p {
+    margin: unset;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.navbar-brand {
+    margin: 0px 0px 0px 68px;
+    width: 10%;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+
+.mr-auto {
+    margin-left: 40%;
+}
+
+#solicita_mobil {
+    display: none
+}
+
+#login_mobil {
+    display: none
+}
+
+#solicita_desktop > a > img {
+    width: 50%;
+    margin-left: 40%;
+}
+
+.dropdown {
+    display: inline;
+}
+
+
+#login_desktop {
+    display: flex;
+    margin-left: 5%;
+}
+
+#login_desktop::after {
+    display: none;
+}
+
+#login_desktop > img {
+    width: 85%;
+}
+
+#menu_login {
+    top: 35px;
+    border-radius: 14px;
+    border: 2px solid #84bd56;
+    left: -8rem;
+}
+
+#solicita_desktop {
+    display: inline;
+
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 5%;
+    left: 5%;
+    text-align: left;
+    color: #233976;
+    opacity: 1;
+    top: 1%;
+    font-size: 45px;
+    width: 50%;
+}
+
+
+
+.carousel-indicators {
+    bottom: 10%;
+}
+
+.titulo {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.titulo_bold {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.texto_metas {
+    font-size: 1.4vw;
+    line-height: 25px;
+    margin-top: 12px;
+}
+
+.texto_explicativo {
+    font-size: 1.4vw;
+    width: 100%;
+    margin: auto;
+    font-weight: 400;
+    max-width: 835px;
+}
+#fondo_beneficios h2 {
+    max-width: 835px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.texto_pasos {
+    font-weight: 700;
+    margin: 0% 33%;
+}
+
+
+.img_tramite{
+    width:50%
+}
+
+.img_tramite_ejemplo{
+     width:45%
+}
+
+.ventajas_tramite{
+    display:flex
+}
+.ventajas_tramite_movil{
+    display:none
+}
+#solicita_credito {
+    width: 100%;
+    padding: 0% 10% 0% 10%;
+    margin: 0% 0 5% 0;
+}
+
+.titulo_bold {
+    font-size: 3.5vw;
+}
+
+#alcanza_metas > .container-fluid > .row {
+    margin: 0 auto;
+    max-width: 1315px;
+}
+
+#alcanza_metas {
+    background-image: url('../img/1920-foto04.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40%;
+}
+
+.contenedor_blanco > #req_banco {
+    width: 40%;
+    margin: 11% 7% 11% 26%;
+}
+
+.contenedor_blanco > #req_mail {
+    width: 33%;
+    margin: 16% 0% 20% 29%;
+}
+
+.contenedor_blanco > #req_movil {
+    width: 19%;
+    margin: 15% 10% 13% 35%
+}
+
+#solicita_credito {
+    width: 45%;
+    transition: 0.2s;
+}
+#solicita_credito:hover {
+    transition: 0.2s;
+}
+
+#fondo_beneficios {
+    background-image: url('../img/1920-foto06.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fondo_beneficios > .row {
+    padding: 3% 8% 0% 8%;
+}
+#fondo_beneficios h2 {
+    max-width: 835px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.texto_requisito {
+    text-align: center;
+    color: #233976;
+    margin: unset;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.texto_requisito_bold {
+    font-size: 14px;
+    font-weight: 700;
+    margin: unset;
+    /* font-size: 1.2vw; */
+}
+
+
+.pie_detalle {
+    margin-top: 0;
+    background-color: #84BD56;
+    border-radius: 0 0 10px 10px;
+	padding: 2% 0%;
+	height: 20%;
+}
+
+.pie_detalle > p > span {
+    font-weight: 700;
+    margin-top: 0px;
+    color: #FFF;
+    display: block;
+}
+
+.pie_detalle > p {
+    text-align: center;
+    margin: 5px 3px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#tramite {    
+    background-image: url('../img/1920-foto05.png');
+    background-repeat: no-repeat;
+	padding-bottom: 7%;
+	background-size: 100%;
+}
+
+#titulo_tramites {
+    padding-top: 7%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo_tramites > h2 {
+    max-width: 640px;
+    margin-bottom: 14px;
+    line-height: 51px;
+    text-align: left;
+    padding: 0;
+    margin-left: 4%;
+    font-size: 2rem;
+}
+
+#titulo_tramites > h1 {
+    text-align: left;
+    width: 100%;
+    margin-left: 6%;
+}
+
+
+.texto_explicativo_tramite {    
+	font-size: 1vw;
+}
+
+#tramite > h2 {
+    position: absolute;
+    top: 0;
+    margin-left: 10%;
+    text-align: left;
+    width: 50%;
+    font-size: 44px;
+}
+
+.titulo > span {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.contenedor_billetera {
+    text-align: unset;
+}
+
+.texto_parrafo_producto {
+    font-size: 1.4vw;
+    width: 100%;
+    font-weight: 400;
+    max-width: 835px;
+    margin-left: 4%;
+}
+.item-uno-dos span, .item-tres span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.item-uno-dos span p , .item-tres span p  {
+    font-weight: 400;
+    color: #666;
+    line-height: 22px;  
+}
+.wrapper-info-tramites {
+    max-width: 620px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    margin-top: 40px;
+}
+.descripcion-tramites {
+    max-width: 620px;
+    margin:4% auto;
+    text-align: center;
+    margin-bottom: 6%;
+}
+.descripcion-tramites p{
+    font-weight: 400;
+    color: #666;
+}
+#content_testimonio h4 {
+    max-width: 835px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.example-platf {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.example-platf p{
+    margin: 0;
+    color: #666;
+    font-weight: 400;
+}
+.example-platf p b{
+    color: #666;
+}
+.item-uno-dos {
+    display: flex;
+}
+.texto_parrafo_bajo {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 1.2vw;
+	font-weight: bold;
+	margin-top: 5%;
+}
+
+.texto_ejemplo{
+    margin: 0%;
+    text-align: justify;
+}
+
+.cinco_minutos {
+    padding: 20% 0%;
+    background-size: 80%;
+    background-position: center;
+    width: 250px;
+    margin: auto;
+}
+
+.cinco_minutos > img {
+    position: relative;
+    width: 125%;
+    margin-left: unset;
+}
+
+.texto_verde {
+    font-size: 20px;
+    line-height: 15px;
+    margin-left: -10%;
+}
+
+.texto_verde.minuto {
+    margin-top: 14%;
+}
+
+.texto_verde > span {
+    color: #84BD56;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#tramite > img {
+    position: relative;
+    margin-top: unset;
+}
+
+#content_testimonio > h2 {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    font-size: 44px;
+}
+
+
+#conoce_mas_desktop {
+    display: block
+}
+
+#conoce_mas_movil {
+    display: none
+}
+
+#nosotros_section > div > h2 {
+    font-weight: 700;
+}
+
+#nosotros_section > div > p {
+    font-weight: 700;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#titulo_somos > * {
+    text-align: right;
+}
+
+#titulo_perzonalizada > * {
+    text-align: left;
+}
+
+#titulo_perzonalizada > p {
+    font-size:3vw
+}
+
+#titulo_perzonalizada > p >span {
+    color:#FFF;
+    font-weight:bold
+}
+ .producto_div {
+    box-shadow: -1px 1px 10px 4px rgba(0, 0, 0, 0.66);
+} 
+.producto_div:hover .detalle_plataforma {
+    width: 100%;
+    transition:0.2s
+}
+
+.detalle_plataforma {
+    display: block;
+    transition:0.2s
+}
+
+.detalle_plataforma {
+    width: 100%;
+    height: 100%;
+    background: rgb(230, 230, 230);
+    position: absolute;
+    top: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.detalle_plataforma > div > p {
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: center;
+    margin: 0px
+}
+
+.detalle_plataforma > ul li {
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 20px;
+}
+
+ul.round_product li::before {
+    background-color: rgb(128, 128, 128);
+}
+
+ul.round_product li {
+    color: rgb(128, 128, 128);
+	font-size: 0.9vw;
+	line-height:  1.4vw;
+}
+
+.nombre_detalle_prod{
+	height: 15%;
+}
+
+.nombre_detalle_prod > * {
+    color: rgb(128, 128, 128)
+}
+
+.linea_detalle {
+    margin: 0% 3%;
+}
+
+.cuerpo_detalle {
+	padding: 0% 6%;
+	height: 70%;
+}
+
+ul.round_product {
+    margin: 5% 2%;
+}
+
+.tol_tip_cal > img {
+    width: 18px;
+}
+
+.tol_tip_cal {
+    text-align: right
+}
+.boton_modal > p {
+    margin: unset;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+}   
+
+.class_checkbox {
+    border: unset;
+    border-radius: 15px;
+    border: 1px solid #243a77;
+}
+
+#intro_calculadora {
+    font-size: 17px;
+    margin-bottom: 5%;
+    font-weight: 400;
+}
+
+#pregunta_dos_cal {
+    margin-top: 4%;
+}
+
+
+#foto_somos {
+    display: block;
+    position: relative;
+}   
+/* @media screen and (max-width: 768px) and (min-width: 1280px) {
+ .calculadora_desktop {
+    top: 29%;
+    left: 48%;
+ }
+    
+} */
+@media (min-width: 768px) {
+
+    .calculadora_desktop {
+        top: 12%;
+        left: 45%;
+        width: 53%;
+     }
+
+	
+    /* .calculadora_desktop {
+        padding: 1% 1%;		
+		top: 18%;
+        left: 40%;
+   		width: 50%;
+    } */
+    #solicita_desktop {
+        display: inline;
+        padding-left: 30%;
+    }
+
+    #solicita_desktop > a > img {
+        width: 13%;
+        margin-left: 2.5%;
+    }
+
+    #login_desktop > img {
+        width: 3%;
+        margin-left: -5.5%;
+        margin-top: 1%;
+    }
+
+    .carousel-caption {
+        width: 360px;
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+
+    .carousel-caption > p {
+	    font-size: 3vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    line-height: 52px;
+    }
+
+    #solicita_desktop {
+        display: inline;
+        padding-left: 0%;
+    }
+   
+    #pregunta_dos_cal {
+        margin-top: 2%;
+    }
+
+    .producto_div:hover .detalle_plataforma {
+        width:100%;
+    }
+
+
+  
+
+  
+
+    ul.round_product {
+        margin: 0% 0%;
+    }
+    
+    .container_nosotros {
+        padding-left: 70px;
+    }
+    .container_nosotros > h1 {
+        font-size: 2.5vw;
+        margin-bottom: 0;
+    }
+    .container_nosotros > h2 {
+         
+        font-size: 2.5vw;
+        font-weight:bold
+    }
+
+    .container_nosotros >p {
+        margin-top: 30px;
+        font-size: 1.5vw;
+        font-weight: 500;
+        text-align: left;
+        line-height: 30px;
+        max-width: 800px;
+    }
+
+   
+
+    #foto_somos > img {
+        width: 220px;
+        position: absolute;
+        bottom: 0;        
+    }
+
+    #foto_atension > img {
+        width: 163%;
+        margin-left: -10%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #titulo_somos {
+        display: flex;
+        justify-content: flex-end;
+    }  
+
+    #titulo_somos > p {
+      font-size: 2.5vw;
+      margin-bottom: 0;
+    }
+
+    #titulo_somos > p > span{
+        font-weight:bold;
+    }
+
+   
+}
+
+@media (min-width: 958px) {
+
+
+    /* .calculadora_desktop {
+        top: 15%;
+        left: 40%;    
+    } */
+
+    #solicita_desktop {
+        display: inline;
+        padding-left: 30%;
+    }
+
+    /* .calculadora_desktop {
+        padding: 1% 1%;
+        width: 50%;
+    } */
+
+    #solicita_desktop {
+        display: inline;
+        padding-left: 0%;
+    }
+
+    #solicita_desktop > a > img {
+        width: 50%;
+        margin-left: 40%;
+    }
+
+    #login_desktop > img {
+        width: 85%;
+    }
+
+
+    #pregunta_dos_cal {
+        margin-top: 4%;
+    }
+
+
+    .texto_requisito_bold {
+        font-size: 16px;
+    }
+
+   
+
+    ul.round_product {
+        margin: 0% 0%;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+
+    /* .calculadora_desktop {
+		padding: 1% 1%;
+    	top: 13%;
+    	left: 40%;
+	} */
+	
+
+	
+    #solicita_desktop {
+        display: inline;
+        padding-left: 10%;
+	}
+	
+    .producto_div:hover .detalle_plataforma {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 1112px) {
+/* 
+    .calculadora_desktop {
+		padding: 1% 1%;
+		top: 13%;
+		left: 43%;
+	}	 */
+
+}
+
+@media (min-width: 1366px) {
+
+    /* .calculadora_desktop {
+		padding: 1% 1%;
+    	top: 12%;
+   		left: 42%;
+	}	 */
+}
+
+@media (min-width: 1440px) {
+
+    .calculadora_desktop {
+		padding: 1% 1%;
+		top: 12%;
+        left: 50%;
+        width: 40%;
+	}	
+
+}
+
+@media (min-width: 1680px) {
+
+    .calculadora_desktop {
+		padding: 1% 1%;
+		top: 13%;
+		left: 50%;
+	}	
+
+}
+
+@media (min-width: 1920px) {
+
+    .calculadora_desktop {
+		padding: 1% 1%;
+        top: 12%;
+        left: 52%;
+        width: 38%;
+	}	
+
+}
+
